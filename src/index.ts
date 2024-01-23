@@ -1,9 +1,9 @@
-import * as dotenv from 'dotenv';
-import path from 'path';
+import * as dotenv from "dotenv";
+import path from "path";
 
 dotenv.config({
-  path: path.resolve(__dirname, `../.env`)
+	path: path.resolve(__dirname, `../.env`),
 });
 
-import logger from './utils/logger';
-import config from './config';
+import logger from "./utils/logger";
+import config from "./config";
