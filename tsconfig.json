@@ -13,6 +13,8 @@
         "module": "commonjs",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
         "skipLibCheck": true,
         "target": "es2022",
         "allowJs": true,
